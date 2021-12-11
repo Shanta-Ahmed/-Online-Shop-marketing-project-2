@@ -1,0 +1,246 @@
+*(font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;)
+ 
+ 
+.navbar{
+    padding: 6px;
+    font-size: 16px;
+    height: 35px;
+}
+
+.navbar{
+    margin-bottom: -6px;
+    border-color: black;
+}
+
+
+.search-bar{
+    background-color: #f5f5f5;
+    padding: 12px 15px;
+    outline: none;
+    width: 55%;
+    margin-left: -50px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    height: 45px;
+    border: antiquewhite;
+    border-style: groove;
+    color: black;
+    margin-top: 4px;
+    
+
+
+}
+.search-container img{
+    width: 90px;
+    height: 45px;
+    margin-top: 4px;
+    margin-left: -50px;
+    margin-right:15px;
+    border-radius: 3px;
+}
+
+.search-container button{
+    outline: none;
+    border: none;
+    width: 5%;
+    color: #f5f5f5;
+    background-color: hsl(0, 61%, 48%);
+    margin-left: -5px;
+    margin-right: -2px;
+    height: 50px;
+    border-radius: 4px;
+    margin-top: 4px;
+    height: 45px;
+}
+.col-1{
+    background-color: rgb(245, 243, 236);
+    text-decoration: none;
+    text-emphasis-color: 0;
+}   
+.fa-shopping-cart{ 
+    margin-left: 130px;
+    margin-top: 5px;
+}
+.fa-user-circle{ 
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-right:3px;
+}
+.banner-responsive{
+    display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 100%;
+ max-width: 100%;
+ position: relative;
+ background-color: rgb(233, 181, 130);
+ margin-top: 10px;
+}
+.feature-container{
+     margin-top:20px;
+    justify-content: center;
+     border-width: 1px;
+     border-style: solid;
+    border-color: rgb(106, 41, 226);
+    box-sizing: content-box;
+    padding: 3px;
+    
+
+}
+.popular-container img{
+    height: 200px;
+}
+.fashion-container img{
+    height: 200px;
+}
+.cart-container img{
+    height: 200px;
+}
+.card-body:hover{
+   background-color: rgb(201, 197, 197); 
+
+
+}
+.card-body{
+    background-color: rgb(252, 244, 252);
+}
+
+.cart-body:hover{
+   transform: translateY(-10px) ;
+}
+.checked{
+    color: rgb(247, 247, 4);
+
+}
+.unchecked{
+    color: rgb(68, 126, 177);
+    
+} 
+
+
+.card {
+    height: 350px;
+    z-index: 0;
+    background-color: #ECEFF1;
+    padding-bottom: 20px;
+    margin-top: .5px;
+    margin-bottom: 90px;
+    border-radius: 10px
+}
+.top {
+    padding-top: 40px;
+    padding-left: 13% !important;
+    padding-right: 13% !important
+}
+
+#progressbar {
+    margin-bottom: 30px;
+    overflow: hidden;
+    color: #455A64;
+    padding-left: 0px;
+    margin-top: 30px
+}
+
+#progressbar li {
+    list-style-type: none;
+    font-size: 13px;
+    width: 25%;
+    float: left;
+    position: relative;
+    font-weight: 400
+}
+#progressbar .step0:before {
+    font-family: FontAwesome;
+    content: "\f10c";
+    color: #fff
+}
+
+#progressbar li:before {
+    width: 40px;
+    height: 40px;
+    line-height: 45px;
+    display: block;
+    font-size: 20px;
+    background: #C5CAE9;
+    border-radius: 50%;
+    margin: auto;
+    padding: 0px
+}
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 12px;
+    background: #C5CAE9;
+    position: absolute;
+    left: 0;
+    top: 16px;
+    z-index: -1
+}
+
+#progressbar li:last-child:after {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    left: -50%
+}
+
+#progressbar li:nth-child(2):after,
+#progressbar li:nth-child(3):after {
+    left: -50%
+}#progressbar li:first-child:after {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: absolute;
+    left: 50%
+}
+
+#progressbar li:last-child:after {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px
+}
+
+#progressbar li:first-child:after {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px
+}
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+    background: #651FFF
+}
+#progressbar li.active:before {
+    font-family: FontAwesome;
+    content: "\f00c"
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px
+}
+
+.icon-content {
+    padding-bottom: 20px
+}
+
+@media screen and (max-width: 992px) {
+    .icon-content {
+        width: 50%
+    }
+}
+footer{ 
+        text-align: justify;
+        background-color: rgb(68, 64, 64);
+        color: floralwhite;
+        margin-top: -40px;
+        padding: 40px;
+        text-decoration: none;
+        margin-top: -60px;
+        text-decoration: none;
+        color: bisque;
+
+}
+footer a{
+    color: white;
+}
